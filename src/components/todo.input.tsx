@@ -20,7 +20,7 @@ const TodoInput = (props: IProps) => {
         setTodo(event.target.value);
     }
 
-    const randomIntFromInterval = (min: number, max: number) => { // min and max included 
+    const randomIntFromInterval = (min: number, max: number) => {
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
 

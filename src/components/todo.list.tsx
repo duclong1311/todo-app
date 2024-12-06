@@ -9,24 +9,6 @@ interface ITodo {
 }
 
 const TodoList = () => {
-    // const todos = [
-    //     {
-    //         id: 1,
-    //         isComplete: false,
-    //         title: "Learn React TypeScript",
-    //     },
-    //     {
-    //         id: 2,
-    //         isComplete: true,
-    //         title: "Subscribe Youtube HoiDanIT",
-    //     },
-    //     {
-    //         id: 3,
-    //         isComplete: false,
-    //         title: "Learn English",
-    //     }
-    // ]
-
     const [listTodo, setListTodo] = useState<ITodo[]>([])
 
     const addNewTodo = (todo: ITodo) => {
